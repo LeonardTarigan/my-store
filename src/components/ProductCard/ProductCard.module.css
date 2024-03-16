@@ -1,0 +1,30 @@
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card:hover {
+  border-color: burlywood;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: contain;
+}
